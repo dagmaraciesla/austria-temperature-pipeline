@@ -5,7 +5,7 @@ GeoSphere Austria API, stores it in a
 MySQL database, and analyzes monthly temperature anomalies for 2025
 against the 1990–2019 reference period.
 
-Group project for the course *198822 VU Introduction into Data Management*
+Group project for the course *Introduction into Data Management*
 (Minor: Digital Science) at the University of Innsbruck.
 
 ![Monthly temperature anomalies across Austria](plots/austria_temps.gif)
@@ -22,18 +22,19 @@ Group project for the course *198822 VU Introduction into Data Management*
 4. **Visualization** — plots and animation of anomalies across Austria
 
 ## Project structure
+```
 .
 ├── src/
-│   ├── 01_create_station_table.R      # station metadata → DB
-│   ├── 02_create_observation_table.py # observations → DB (incl. NA cleaning)
-│   ├── 03_analysis.R                  # anomaly computation & plots
-│   ├── functions.py                   # Python helpers (DB insertion, cleaning)
-│   └── functions.R                    # R helpers
-├── plots/                             # generated figures & animation
-├── docs/                              # project presentation (PDF)
+│   ├── 01_create_station_table.R       # station metadata → DB
+│   ├── 02_create_observation_table.py  # observations → DB (incl. NA cleaning)
+│   ├── 03_analysis.R                   # anomaly computation & plots
+│   ├── functions.py                    # Python helpers (API, caching, DB insertion)
+│   └── functions.R                     # R helpers
+├── plots/                              # generated figures & animation
+├── docs/                               # project presentation (PDF)
 ├── requirements.txt
 └── .env_template
-
+```
 ## Setup
 
 **Requirements:** Python 3.x, R, access to a MySQL database.
@@ -73,7 +74,7 @@ were marginally below the reference.
 
 ## Team & contributions
 
-Group project (4 students) for the course *198822 VU Introduction into
+Group project (4 students) for the course *Introduction into
 Data Management* at the University of Innsbruck.
 
 **My contributions:**
