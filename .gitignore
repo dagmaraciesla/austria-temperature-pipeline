@@ -1,0 +1,24 @@
+# Python
+**/__pycache__/
+
+# R
+.Rhistory
+
+# macOS
+**/.DS_Store
+
+# credentails
+.env
+
+# Generated / build artifacts
+cache/
+*.log
+*.synctex.gz
+*.aux
+*.nav
+*.snm
+*.toc
+*.out
+
+
+docs/
