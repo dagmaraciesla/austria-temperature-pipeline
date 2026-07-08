@@ -31,7 +31,6 @@ Group project for the course *Introduction into Data Management*
 │   ├── functions.py                    # Python helpers (API, caching, DB insertion)
 │   └── functions.R                     # R helpers
 ├── plots/                              # generated figures & animation
-├── docs/                               # project presentation (PDF)
 ├── requirements.txt
 └── .env_template
 ```
